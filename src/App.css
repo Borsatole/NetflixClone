@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'NetflixSansLight';
+    src: url('../public/fontes/NetflixSans-Light.otf') format('opentype');
+    font-weight: light;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'NetflixSansRegular';
+    src: url('../public/fontes/NetflixSans-Regular.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* @font-face {
+    font-family: 'NetflixSansMedium';
+    src: url('../public/fontes/NetflixSans-Medium.otf') format('opentype');
+    font-weight: medium;
+    font-style: normal;
+} */
+
+@font-face {
+    font-family: 'NetflixSansBlack';
+    src: url('../public/fontes/NetflixSans-Bold.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+
+:root {
+    --white: #FFFFFF;
+    --White30Opacity: rgba(255, 255, 255, 0.3);
+    --SmokeWhite: #E5E5E5;
+    --MidGray: hsl(240, 0%, 70%);
+    --Gray:#808080;
+    --Black:#141414;
+    --Red: #B9090B;
+    
+}

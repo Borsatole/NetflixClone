@@ -1,10 +1,14 @@
 // import React from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
+import Content from '../layouts/Content';
+import Header from '../layouts/Header';
 
 const Home = () =>{
   return (
     <div>
-      <h1>Página Inicial</h1>
+      <Header/>
+      <Content/>
+      {/* <h1>Página Inicial</h1>
       <nav>
         <ul>
           <li>
@@ -14,7 +18,7 @@ const Home = () =>{
             <Link to="/usuario">Usuario</Link>
           </li>
         </ul>
-      </nav>
+      </nav> */}
     </div>
   );
 }
