@@ -9,7 +9,7 @@ function Header() {
 
         <div className='HeaderLeft'>
 
-            <img src="public\images\NetflixLogoSvg.svg" alt="" />
+            <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/NetflixLogoSvg.svg" alt="" />
 
             <menu>
                 <ul>
@@ -22,11 +22,15 @@ function Header() {
         <div className='HeaderRight'>
 
                 <ul>
-                    <img src="public\images\icons\search.svg" alt="" width={20} />
-                    <img src="public\images\icons\ÇOCUK.svg" alt="" />
-                    <img src="public\images\icons\GiftBox.svg" alt="" width={20}/>
-                    <img src="public\images\icons\NotificationBell.svg" alt="" width={20}/>
-                    <img src="public\images\icons\Img&Dropdown.svg" alt="" />
+                    <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Search.svg" alt="" width={20} />
+
+                    <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/%C3%87OCUK.svg" alt="" />
+
+                    <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/GiftBox.svg" alt="" width={20}/>
+
+                    <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/NotificationBell.svg" alt="" width={20}/>
+
+                    <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Img%26Dropdown.svg" alt="" />
                     
                 </ul>
 
