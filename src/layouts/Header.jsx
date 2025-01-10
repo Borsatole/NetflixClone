@@ -9,7 +9,7 @@ function Header() {
 
         <div className='HeaderLeft'>
 
-            <img src="..\public\images\NetflixLogoSvg.svg" alt="" />
+            <img src="public\images\NetflixLogoSvg.svg" alt="" />
 
             <menu>
                 <ul>
