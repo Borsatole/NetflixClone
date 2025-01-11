@@ -3,8 +3,7 @@ import '../layouts/css/FilmeTopoPagina.css'
 
 function FilmeTopoPagina() {
   return (
-    <section>
-        <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/refs/heads/main/public/images/MoviePoster.png" alt="" />
+    <section className='movie'>
         
         <div className='movieInfo'>
           <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/refs/heads/main/public/images/MovieName.png" alt="" />
@@ -21,19 +20,19 @@ function FilmeTopoPagina() {
             </div>
 
             <div className='buttons'>
+
               <a href='#'>
                 <div> 
                   <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/8d1731702ab8bf26466d99a38b6374da9deb5c82/public/images/icons/Play.svg" alt="" />Play</div>
                 </a>
+                
               <a href='#'>
-                <div> <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/8d1731702ab8bf26466d99a38b6374da9deb5c82/public/images/icons/Play.svg" alt="" />Mais Informações</div>
+                <div> <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/c09e0989d734929a1ef45646398d291dd1d6c4ef/public/images/icons/Detail.svg" alt="" />Mais Informações</div>
                 </a>
             </div>
           </section>
           
         </div>
-
-        
 
     </section>
   )

@@ -1,5 +1,33 @@
+.movie {
+    background-image: url('https://raw.githubusercontent.com/Borsatole/NetflixClone/refs/heads/main/public/images/MoviePoster.png');
+
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: calc(80vh - 5rem);
+
+    animation: bg 25s backwards infinite;
+}
+section {
+    overflow: hidden;
+}
 
 
+@keyframes bg {
+    0% {
+        background-position: 0 0;
+    }
+    
+    50% {
+        background-position: 100% 100%;
+    }
+    
+    100% {
+        background-position: 0 0;
+    }
+    
+}
 
 section img {
     width: 100%;
@@ -58,6 +86,10 @@ section .movieDescription {
     /* border: 1px solid red; */
 }
 
+section .movieDescription p {
+    line-height: 1.4rem;
+}
+
 section .buttons {
     display: flex;
     margin-top: 1rem;
@@ -100,4 +132,18 @@ section .buttons {
     border-radius: 5px;
 }
 
+@media screen and (max-width: 1106px) {
+    section .movieInfo {
+        width: 75%;
+    }
+}
+
+
+@media screen and (max-width: 840px) {
+    section .movieInfo {
+        width: 100%;
+        scale: 0.8;
+        left: 0%;
+    }
+}
 
