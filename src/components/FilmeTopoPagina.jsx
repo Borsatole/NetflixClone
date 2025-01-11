@@ -10,6 +10,11 @@ function FilmeTopoPagina() {
           <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/refs/heads/main/public/images/MovieName.png" alt="" />
         </div>
 
+        <div className='RankIcon&Text'>
+          <img src="" alt="" />
+          <span>Türkiye’de Bugün 4 Numara</span>
+        </div>
+
     </section>
   )
 }

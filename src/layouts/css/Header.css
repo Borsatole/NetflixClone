@@ -88,10 +88,18 @@ header {
     }
 
     .HeaderRight ul {
+        display: flex;
+    }
+
+    .HeaderRight ul li {
         display: none;
     }
 
-    .hamburger {
+    .HeaderRight ul li:last-child {
         display: block;
+    }
+
+    .hamburger {
+        display: none;
     }
 }

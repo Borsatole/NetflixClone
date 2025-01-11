@@ -9,8 +9,8 @@ const Home = () =>{
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handlePageLoad = () => {
-      setIsLoading(false);
+    const handlePageLoad = async() => {
+      setTimeout(() => setIsLoading(false),1000)
     };
 
 
