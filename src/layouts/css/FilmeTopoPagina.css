@@ -15,14 +15,63 @@ section .movieInfo img {
 section .movieInfo {
     position: absolute;
     /* background-color: red; */
-    border: 1px solid red;
+    /* border: 1px solid red; */
     
     width: 40%;
     height: 50%;
     
-    
-    top: 45%;
+    top: 35%;
     left: 10%;
     z-index: 1;
 }
 
+section {
+    position: absolute;
+    z-index: 1;
+}
+
+section .RankIconText {
+    font-family: 'NetflixSansRegular';
+    display: flex;
+    justify-content: start;
+    align-items: censter;
+    font-size: 2.0rem;
+
+    color: white;
+    /* border: 1px solid red; */
+    gap: 5px;
+    
+}
+
+section .RankIconText img {
+    width: 32px;
+}
+
+section .movieDescription {
+    margin-top: 0.5rem;
+    font-family: 'NetflixSansRegular';
+    display: flex;
+    font-size: 0.97rem;
+    justify-content: center;
+    align-items: center;
+    color: var(--White);
+    /* border: 1px solid red; */
+}
+
+section .buttons {
+    display: flex;
+    margin-top: 1rem;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    /* border: 1px solid red; */
+}
+
+.buttons a div {
+    font-family: 'NetflixSansRegular';
+    color: var(--White);
+    border: 2px solid var(--White);
+    border-radius: 5px;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}

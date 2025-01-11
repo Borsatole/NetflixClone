@@ -34,7 +34,7 @@
 
 
 :root {
-    --white: #FFFFFF;
+    --White: #FFFFFF;
     --White30Opacity: rgba(255, 255, 255, 0.3);
     --SmokeWhite: #E5E5E5;
     --MidGray: hsl(240, 0%, 70%);
