@@ -67,11 +67,37 @@ section .buttons {
     /* border: 1px solid red; */
 }
 
+.buttons a {
+    text-decoration: none;
+}
+
 .buttons a div {
     font-family: 'NetflixSansRegular';
-    color: var(--White);
     border: 2px solid var(--White);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
     border-radius: 5px;
     padding: 0.5rem 1rem;
     cursor: pointer;
 }
+
+.buttons img {
+    width: 1rem;
+}
+
+.buttons a:last-child div{
+    background-color: var(--White30Opacity);
+    color: var(--White);
+    border-color: var(--White30Opacity);
+    border-radius: 5px;
+}
+
+.buttons a:first-child {
+    background-color: var(--White);
+    color: var(--Black);
+    border-radius: 5px;
+}
+
+
