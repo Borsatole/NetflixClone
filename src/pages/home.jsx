@@ -1,40 +1,37 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect } from "react";
 // import { Link } from 'react-router-dom';
-import Content from '../layouts/Content';
-import Header from '../layouts/Header';
-import Loader from '../components/Loader';
+import Content from "../layouts/Content";
+import Header from "../layouts/Header";
+import Loader from "../components/Loader";
 
-const Home = () =>{
-
+const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
 
   useEffect(() => {
-    const handlePageLoad = async() => {
-      setTimeout(() => setIsLoading(false),1000)
+    const handlePageLoad = async () => {
+      setTimeout(() => setIsLoading(false), 1000);
     };
 
-
     // Verifica se a página já foi completamente carregada
-    if (document.readyState === 'complete') {
+    if (document.readyState === "complete") {
       handlePageLoad();
     } else {
       // Adiciona o evento para detectar quando a página termina de carregar
-      window.addEventListener('load', handlePageLoad);
+      window.addEventListener("load", handlePageLoad);
 
       // Limpa o evento ao desmontar o componente
-      return () => window.removeEventListener('load', handlePageLoad);
+      return () => window.removeEventListener("load", handlePageLoad);
     }
   }, []);
-  
-  return (
 
+  return (
     <div>
       {isLoading ? (
         <Loader /> // Exibe o componente Loader enquanto está carregando
       ) : (
         <>
-        
           <Header />
+
           <Content />
 
           {/* <h1>Página Inicial</h1>
@@ -50,11 +47,8 @@ const Home = () =>{
       </nav> */}
         </>
       )}
-      
     </div>
-
-    
   );
-}
+};
 
 export default Home;

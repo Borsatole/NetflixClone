@@ -1,35 +1,36 @@
-import React from "react";
+/* eslint-disable react/prop-types */
+import Card from "./Card";
 
-function ListagemFilmes() {
+function ListagemFilmes(props) {
   return (
     <div className="listagemFilmes">
-      <h1>Filmes Populares</h1>
+      <h1>{props.Categoria}</h1>
 
       <div className="cards">
-        <div className="card">
-          <img
-            src="public\images\cards-filmes\MovieHorizontalCard.png"
-            alt=""
-          />
-        </div>
-        <div className="card">
-          <img
-            src="public\images\cards-filmes\MovieHorizontalCard.png"
-            alt=""
-          />
-        </div>
-        <div className="card">
-          <img
-            src="public\images\cards-filmes\MovieHorizontalCard.png"
-            alt=""
-          />
-        </div>
-        <div className="card">
-          <img
-            src="public\images\cards-filmes\MovieHorizontalCard.png"
-            alt=""
-          />
-        </div>
+        <Card
+          poster="public\images\cards-filmes\MovieHorizontalCard.png"
+          link="#"
+        />
+
+        <Card
+          poster="public\images\cards-filmes\MovieHorizontalCard2.png"
+          link="#"
+        />
+
+        <Card
+          poster="public\images\cards-filmes\MovieHorizontalCard3.png"
+          link="#"
+        />
+
+        <Card
+          poster="public\images\cards-filmes\MovieHorizontalCard4.png"
+          link="#"
+        />
+
+        <Card
+          poster="public\images\cards-filmes\MovieHorizontalCard5.png"
+          link="#"
+        />
       </div>
     </div>
   );

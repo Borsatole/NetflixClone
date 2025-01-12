@@ -43,3 +43,7 @@
     --Red: #B9090B;
     
 }
+
+body {
+    background-color: var(--Black);
+}

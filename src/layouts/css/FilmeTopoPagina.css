@@ -5,14 +5,10 @@
     background-position: center;
     background-repeat: no-repeat;
     width: 100%;
-    height: calc(80vh - 5rem);
+    /* height: calc(80vh - 5rem); */
 
     animation: bg 25s backwards infinite;
 }
-section {
-    overflow: hidden;
-}
-
 
 @keyframes bg {
     0% {
@@ -29,6 +25,12 @@ section {
     
 }
 
+/* section */
+
+section {
+    overflow: hidden;
+}
+
 section img {
     width: 100%;
     position: relative;
@@ -41,20 +43,9 @@ section .movieInfo img {
 }
 
 section .movieInfo {
-    /* background-color: red; */
-    border: 1px solid red;
-    
     width: 40%;
-    /* height: 50%; */
-    
     margin-top: 10%;
     margin-left: 5%;
-    z-index: 1;
-}
-
-section {
-    /* position: absolute;
-    z-index: 1; */
 }
 
 section .RankIconText {
@@ -98,6 +89,8 @@ section .buttons {
     /* border: 1px solid red; */
 }
 
+/* buttons */
+
 .buttons a {
     text-decoration: none;
 }
@@ -131,44 +124,75 @@ section .buttons {
     border-radius: 5px;
 }
 
+/* listagemFilmes */
+
+.listagemFilmes {
+    width: 100%;
+    margin-left: 5%;
+    color: white;
+    font-family: 'NetflixSansRegular';
+}
+
+.listagemFilmes h1 {
+    margin: 0.5rem 0;
+    
+}
+
+.listagemFilmes .cards {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    gap: 0.5rem;
+    overflow-x: scroll;
+
+    scrollbar-width:none;
+    
+}
+
+.listagemFilmes .card {
+    min-width: 300px;
+    
+}
+
+.listagemFilmes .card img {
+    max-height: 190px;
+}
+
+
 @media screen and (max-width: 1106px) {
     section .movieInfo {
-        width: 75%;
-    }
+        width: 90%;
+     }
+
+    
 }
 
 
 @media screen and (max-width: 840px) {
     section .movieInfo {
-        width: 100%;
-        scale: 0.8;
+        width: 75%;
+        scale: 1;
         left: 0%;
+    }
+
+    section .movieInfo img{
+        width: 65%;
+        
+    }
+
+    section .movieInfo .RankIconText {
+        display: flex;
+        align-items: center;
+    }
+
+    section .movieInfo span{
+        font-size:1rem;
+        
+    }
+
+    .listagemFilmes .cards .card {
+        min-width: 220px;
     }
 }
 
-.movie .listagemFilmes {
-    margin-left: 5%;
-    color: white;
-    font-family: 'NetflixSansRegular';
 
-}
-
-.movie .listagemFilmes h1 {
-    margin: 0.5rem 0;
-}
-
-.movie .listagemFilmes .cards {
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-    
-    /* padding-bottom: 1rem; */
-
-    background-color: red;
-    height: 500px;
-}
-
-.movie .listagemFilmes .card {
-    width: 300px;
-    
-}

@@ -18,14 +18,14 @@ function FilmeTopoPagina() {
               alt=""
               width={32}
             />
-            <span>Türkiye’de Bugün 4 Numara</span>
+            <span>Hoje o número 4 é a Turquia</span>
           </div>
 
           <div className="movieDescription">
             <p>
-              Küçük yaşta başının çaresine bakmayı öğrenen ve çok çalışarak iş
-              dünyasında önemli bir konuma gelen Emir, bir gün sokak şarkıcısı
-              bir kızla karşılaşır ve hayatı değişir.
+              Emir, que aprendeu a se defender ainda jovem e alcançou uma
+              posição importante no mundo dos negócios trabalhando duro, um dia
+              conhece uma cantora de rua e sua vida muda.
             </p>
           </div>
 
@@ -54,7 +54,7 @@ function FilmeTopoPagina() {
         </section>
       </div>
 
-      <ListagemFilmes />
+      <ListagemFilmes Categoria="Popular na Netflix" />
     </section>
   );
 }
