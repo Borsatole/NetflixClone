@@ -3,15 +3,15 @@
 function MenuOptions() {
   return (
     <>
-
-                    <li>Ana Sayfa</li>
-                    <li>Diziler</li>
-                    <li>Filmler</li>
-                    <li>Yeni ve Popüler</li>
-                    <li>Listem</li>
-    
+      <ul>
+        <li>Ana Sayfa</li>
+        <li>Diziler</li>
+        <li>Filmler</li>
+        <li>Yeni ve Popüler</li>
+        <li>Listem</li>
+      </ul>
     </>
-  )
+  );
 }
 
-export default MenuOptions
+export default MenuOptions;

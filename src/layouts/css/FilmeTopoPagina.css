@@ -41,21 +41,20 @@ section .movieInfo img {
 }
 
 section .movieInfo {
-    position: absolute;
     /* background-color: red; */
-    /* border: 1px solid red; */
+    border: 1px solid red;
     
     width: 40%;
-    height: 50%;
+    /* height: 50%; */
     
-    top: 35%;
-    left: 10%;
+    margin-top: 10%;
+    margin-left: 5%;
     z-index: 1;
 }
 
 section {
-    position: absolute;
-    z-index: 1;
+    /* position: absolute;
+    z-index: 1; */
 }
 
 section .RankIconText {
@@ -147,3 +146,29 @@ section .buttons {
     }
 }
 
+.movie .listagemFilmes {
+    margin-left: 5%;
+    color: white;
+    font-family: 'NetflixSansRegular';
+
+}
+
+.movie .listagemFilmes h1 {
+    margin: 0.5rem 0;
+}
+
+.movie .listagemFilmes .cards {
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    
+    /* padding-bottom: 1rem; */
+
+    background-color: red;
+    height: 500px;
+}
+
+.movie .listagemFilmes .card {
+    width: 300px;
+    
+}
