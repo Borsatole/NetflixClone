@@ -9,25 +9,13 @@ function ListagemFilmes(props) {
       <div className="cards">
         <Card poster="\images\cards-filmes\MovieHorizontalCard.png" link="#" />
 
-        <Card
-          poster="public\images\cards-filmes\MovieHorizontalCard2.png"
-          link="#"
-        />
+        <Card poster="\images\cards-filmes\MovieHorizontalCard2.png" link="#" />
 
-        <Card
-          poster="public\images\cards-filmes\MovieHorizontalCard3.png"
-          link="#"
-        />
+        <Card poster="\images\cards-filmes\MovieHorizontalCard3.png" link="#" />
 
-        <Card
-          poster="public\images\cards-filmes\MovieHorizontalCard4.png"
-          link="#"
-        />
+        <Card poster="\images\cards-filmes\MovieHorizontalCard4.png" link="#" />
 
-        <Card
-          poster="public\images\cards-filmes\MovieHorizontalCard5.png"
-          link="#"
-        />
+        <Card poster="\images\cards-filmes\MovieHorizontalCard5.png" link="#" />
       </div>
     </div>
   );
