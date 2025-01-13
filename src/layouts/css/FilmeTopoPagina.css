@@ -150,8 +150,10 @@ section .buttons {
 }
 
 .listagemFilmes .card {
-    min-width: 300px;
-    
+    /* min-width: 300px; */
+    min-width: 22rem;
+    /* min-width: 322px;
+    max-width: 370px; */
 }
 
 .listagemFilmes .card img {
@@ -173,11 +175,6 @@ section .buttons {
         width: 75%;
         scale: 1;
         left: 0%;
-    }
-
-    section .movieInfo img{
-        width: 65%;
-        
     }
 
     section .movieInfo .RankIconText {

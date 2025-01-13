@@ -1,21 +1,14 @@
 /* eslint-disable react/prop-types */
 import Card from "./Card";
 
-function ListagemFilmes(props) {
+function ListagemFilmes({ Categoria, ListagemCards = [] }) {
   return (
     <div className="listagemFilmes">
-      <h1>{props.Categoria}</h1>
-
+      <h1>{Categoria}</h1>
       <div className="cards">
-        <Card poster="\images\cards-filmes\MovieHorizontalCard.png" link="#" />
-
-        <Card poster="\images\cards-filmes\MovieHorizontalCard2.png" link="#" />
-
-        <Card poster="\images\cards-filmes\MovieHorizontalCard3.png" link="#" />
-
-        <Card poster="\images\cards-filmes\MovieHorizontalCard4.png" link="#" />
-
-        <Card poster="\images\cards-filmes\MovieHorizontalCard5.png" link="#" />
+        {ListagemCards.map((card, index) => (
+          <Card key={index} poster={card.poster} link={card.link} />
+        ))}
       </div>
     </div>
   );

@@ -54,7 +54,31 @@ function FilmeTopoPagina() {
         </section>
       </div>
 
-      <ListagemFilmes Categoria="Popular na Netflix" />
+      <ListagemFilmes
+        Categoria="Popular na Netflix"
+        ListagemCards={[
+          {
+            poster: "\\images\\cards-filmes\\MovieHorizontalCard.png",
+            link: "#",
+          },
+          {
+            poster: "\\images\\cards-filmes\\MovieHorizontalCard2.png",
+            link: "#",
+          },
+          {
+            poster: "\\images\\cards-filmes\\MovieHorizontalCard3.png",
+            link: "#",
+          },
+          {
+            poster: "\\images\\cards-filmes\\MovieHorizontalCard4.png",
+            link: "#",
+          },
+          {
+            poster: "\\images\\cards-filmes\\MovieHorizontalCard5.png",
+            link: "#",
+          },
+        ]}
+      />
     </section>
   );
 }
