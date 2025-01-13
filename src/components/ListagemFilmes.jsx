@@ -7,10 +7,7 @@ function ListagemFilmes(props) {
       <h1>{props.Categoria}</h1>
 
       <div className="cards">
-        <Card
-          poster="public\images\cards-filmes\MovieHorizontalCard.png"
-          link="#"
-        />
+        <Card poster="\images\cards-filmes\MovieHorizontalCard.png" link="#" />
 
         <Card
           poster="public\images\cards-filmes\MovieHorizontalCard2.png"
