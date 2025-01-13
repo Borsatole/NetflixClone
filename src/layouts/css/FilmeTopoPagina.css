@@ -190,6 +190,10 @@ section .buttons {
     .listagemFilmes .cards .card {
         min-width: 220px;
     }
+
+    .listagemFilmes .card img {
+        max-height: 160px;
+    }
 }
 
 

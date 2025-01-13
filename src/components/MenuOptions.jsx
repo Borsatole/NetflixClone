@@ -4,11 +4,11 @@ function MenuOptions() {
   return (
     <>
       <ul>
-        <li>Ana Sayfa</li>
-        <li>Diziler</li>
-        <li>Filmler</li>
-        <li>Yeni ve Popüler</li>
-        <li>Listem</li>
+        <li>Inicio</li>
+        <li>Séries</li>
+        <li>Filmes</li>
+        <li>Populares</li>
+        <li>Ajuda</li>
       </ul>
     </>
   );
