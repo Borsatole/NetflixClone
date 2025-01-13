@@ -47,7 +47,7 @@ function FilmeTopoPagina() {
                   src="https://raw.githubusercontent.com/Borsatole/NetflixClone/c09e0989d734929a1ef45646398d291dd1d6c4ef/public/images/icons/Detail.svg"
                   alt=""
                 />
-                Mais Informações
+                Informações
               </div>
             </a>
           </div>
