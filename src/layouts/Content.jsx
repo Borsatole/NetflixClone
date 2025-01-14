@@ -66,43 +66,86 @@ function Content() {
           Categoria={"Originais Netflix"}
           ListagemCards={[
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard1.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard1.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard2.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard2.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard3.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard3.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard4.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard4.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard1.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard1.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard2.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard2.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard3.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard3.png",
               link: "#",
             },
             {
-              poster:
-                "public/images/cards-original-netflix/MovieVerticalCard4.png",
+              poster: "/images/cards-original-netflix/MovieVerticalCard4.png",
+              link: "#",
+            },
+          ]}
+        />
+
+        <ListagemFilmes
+          Categoria="Assista Novamente"
+          ListagemCards={[
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard16.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard17.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard18.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard19.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard16.png",
+              link: "#",
+            },
+          ]}
+        />
+        <ListagemFilmes
+          Categoria="Em breve"
+          ListagemCards={[
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard21.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard22.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard23.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard24.png",
+              link: "#",
+            },
+            {
+              poster: "\\images\\cards-filmes\\MovieHorizontalCard25.png",
               link: "#",
             },
           ]}

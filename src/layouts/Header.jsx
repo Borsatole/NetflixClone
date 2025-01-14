@@ -1,54 +1,63 @@
 // import React from 'react'
-import HamburgerMenu from '../components/HamburguerMenu';
-import MenuOptions from '../components/MenuOptions';
-import SearchBar from '../components/SearchBar';
-import './css/Header.css';
+
+import MenuOptions from "../components/MenuOptions";
+import SearchBar from "../components/SearchBar";
+import "./css/Header.css";
 
 function Header() {
   return (
     <header>
+      <div className="HeaderLeft">
+        <img
+          src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/NetflixLogoSvg.svg"
+          alt=""
+        />
 
-        <div className='HeaderLeft'>
+        <menu>
+          <ul>
+            <MenuOptions />
+          </ul>
+        </menu>
+      </div>
 
-            <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/NetflixLogoSvg.svg" alt="" />
+      <div className="HeaderRight">
+        <ul>
+          {/* <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Search.svg" alt="" width={20} /> */}
 
-            <menu>
-                <ul>
-                    <MenuOptions/>
-                </ul>
-            </menu>
+          <SearchBar />
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/%C3%87OCUK.svg"
+              alt=""
+            />
+          </li>
 
-        </div>
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/GiftBox.svg"
+              alt=""
+              width={20}
+            />
+          </li>
 
-        <div className='HeaderRight'>
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/NotificationBell.svg"
+              alt=""
+              width={20}
+            />
+          </li>
 
-                <ul>
-                    {/* <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Search.svg" alt="" width={20} /> */}
-
-                    <SearchBar/>
-                    <li>
-                    <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/%C3%87OCUK.svg" alt="" />
-                    </li>
-                    
-
-                    <li><img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/GiftBox.svg" alt="" width={20}/></li>
-
-                    <li><img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/NotificationBell.svg" alt="" width={20}/></li>
-
-                    <li><img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Img%26Dropdown.svg" alt="" /></li>
-                    
-                </ul>
-
-            <HamburgerMenu/>
-                
-            
-        </div>
-
-
-
-
+          <li>
+            <img
+              src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Img%26Dropdown.svg"
+              alt=""
+            />
+          </li>
+        </ul>
+      </div>
     </header>
-  )
+  );
 }
 
-export default Header
+export default Header;
