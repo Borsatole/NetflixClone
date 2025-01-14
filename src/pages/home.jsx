@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Content from "../layouts/Content";
 import Header from "../layouts/Header";
 import Loader from "../components/Loader";
+import Footer from "../layouts/Footer";
 
 const Home = () => {
   const [isLoading, setIsLoading] = useState(true);
@@ -33,6 +34,8 @@ const Home = () => {
           <Header />
 
           <Content />
+
+          <Footer />
 
           {/* <h1>Página Inicial</h1>
       <nav>
