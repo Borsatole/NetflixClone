@@ -25,12 +25,6 @@ function Header() {
           {/* <img src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Search.svg" alt="" width={20} /> */}
 
           <SearchBar />
-          <li>
-            <img
-              src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/%C3%87OCUK.svg"
-              alt=""
-            />
-          </li>
 
           <li>
             <img
@@ -49,10 +43,7 @@ function Header() {
           </li>
 
           <li>
-            <img
-              src="https://raw.githubusercontent.com/Borsatole/NetflixClone/3c1209eac7cbab07f300cc04832790bfa909ef02/public/images/icons/Img%26Dropdown.svg"
-              alt=""
-            />
+            <img src="\images\icons\Img&Dropdown.svg" alt="" />
           </li>
         </ul>
       </div>
