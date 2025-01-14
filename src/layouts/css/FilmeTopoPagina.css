@@ -158,6 +158,7 @@ section .buttons {
 
 .listagemFilmes .card img {
     max-height: 190px;
+    /* border: 1px solid var(--White); */
 }
 
 
@@ -195,5 +196,6 @@ section .buttons {
         max-height: 160px;
     }
 }
+
 
 
